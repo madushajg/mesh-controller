@@ -148,8 +148,6 @@ const (
 
 type ComponentType string
 
-type GatewayType string
-
 const (
 	// ServiceTypeDeployment is the default type which run as services.
 	ComponentTypeDeployment ComponentType = "Deployment"
@@ -159,8 +157,6 @@ const (
 
 	// ServiceTypeJob is a job which run into completion.
 	ComponentTypeJob ComponentType = "Job"
-
-	GatewayTypeJob GatewayType = "Job"
 )
 
 type ComponentCurrentStatus string
